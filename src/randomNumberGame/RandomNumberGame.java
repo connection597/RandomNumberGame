@@ -44,7 +44,7 @@ public class RandomNumberGame {
 			// 재도전 여부 체크
 			System.out.println("다시하겠습니까? Y(y) / N(n)");
 			yn = sc.next().charAt(0);
-			if(yn == "Y" || yn=="y") {
+			if(yn == "Y" || yn =="y") {
 				replay = false;
 			}else {
 				replay = true;
